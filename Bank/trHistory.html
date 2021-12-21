@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:0px;
+            padding:0px;
+        }
+        header{
+            background-color: rgb(37, 37, 253);
+            display:flex;
+            align-content: center;
+            justify-content: center;
+            color:white;
+        }
+       
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Bank</h1>
+    </header>
+    <h1>Deposit</h1>
+    <form id="History" , method="POST", action="/costumer/check/trHistory">
+        <label for="AccNo">Account Number</label><br>
+        <input required type="text" id="AccNo" name="AccNo" placeholder="Account Number"/><br>
+
+
+        <label for="date">Date</label><br>
+        <input type="date" id="date" name="date" placeholder="Date"/><br>
+
+        <input type="submit"/>
+    </form>
+</body>
+<script>
+   
+</script>
+</html>

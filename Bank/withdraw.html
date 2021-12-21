@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:0px;
+            padding:0px;
+        }
+        header{
+            background-color: rgb(37, 37, 253);
+            display:flex;
+            align-content: center;
+            justify-content: center;
+            color:white;
+        }
+       
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Bank</h1>
+    </header>
+    <h1>Withdraw</h1>
+    <form id="Withdrawl" , method="POST", action="/costumer/withdraw">
+        <label for="AccNo">Account Number</label><br>
+        <input type="text" id="AccNo" name="AccNo" placeholder="Account Number"/><br>
+
+
+        <label for="amount">Enter Amount</label><br>
+        <input type="text" id="amount" name="amount" placeholder="Amount"/><br>
+
+
+        <label for="password">Enter Your Password</label><br>
+        <input type="text" id="password" name="password" placeholder="Password"/><br>
+
+
+        <label for="date">Date</label><br>
+        <input type="date" id="date" name="date" placeholder="Date"/><br>
+
+
+        <input type="text" id="hidden" name="TrType" value="Withdraw"/>
+        <input type="submit"/>
+    </form>
+</body>
+<script>
+    // const addAcc = ()=>{
+    //     window.location="./AddAcc.html";
+    // }
+    let hidden = document.getElementById('hidden').style.display='none';
+</script>
+</html>

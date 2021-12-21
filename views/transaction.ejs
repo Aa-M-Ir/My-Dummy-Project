@@ -1,0 +1,18 @@
+<head>
+    <style>
+        div{
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+
+<% myArr.forEach((ele)=>{ %>
+<div>
+    <ul>
+        <li> Account Number: <%= ele.AccNo %></li>
+        <li> Amount: <%= ele.amount %></li>
+        <li> Date: <%= ele.date %></li>
+        <li> Transaction Type: <%= ele.TrType %></li>
+    </ul>
+</div>
+<% }) %>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <style>
+        div{
+            background-color: aliceblue;
+            width: 350px;
+            padding:10px;
+            position: relative;
+            left:40vw;
+            top:50px;
+            
+        }
+        strong{
+            font-size: 20px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div><strong>Account Detials</strong>
+        <ul>
+            <li> Name: <%= User.name %> </li>
+            <li> Perantage: <%= User.sonOf %></li>
+            <li> Age: <%= User.age %> </li>
+            <li> Phone Number: <%= User.phNo %> </li>
+            <li> Account Number: <%= User.accNo %> </li>
+            <li> Balance: <%= User.balance %> </li>
+            <li> Password: <%= User.password %> </li>
+        </ul>
+    </div>
+</body>
+</html>
